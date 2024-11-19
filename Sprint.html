@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brands@us</title>
+  <link rel="icon" type="image/x-icon" href="download (6).jfif">
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #d4d4d4;
+    }
+    .hover-effect:hover {
+      transform: scale(1.1);
+      transition: 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body class="font-sans">
+
+  <!-- Header (Bootstrap) -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">📢 Brands@us</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Tailwind) -->
+  <section id="hero" class="bg-gradient-to-b from-black via-gray-800 to-black text-white text-center py-20">
+    <h1 class="text-5xl font-extrabold">We are Brands@us</h1>
+    <p class="mt-4 text-xl">Connecting Brands with the Right Voices</p>
+    <a href="https://www.youtube.com/" target="_blank"><button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded shadow-md hover-effect">
+      Explore Now
+    </button></a>
+  </section>
+
+  <!-- Features Section (Bootstrap) -->
+  <section id="features" class="py-10 bg-black text-white">
+    <div class="container text-center">
+      <h2 class="text-3xl mb-8">Features</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="bi bi-robot fs-1 text-blue-500"><img src="img1.jpg"></i>
+          <h3 class="mt-3">Easy Ambassador Matching</h3>
+          <p>Intelligent algorithms match you with ideal ambassadors.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-planet fs-1 text-blue-500"><img src="img3.jpg"></i>
+          <h3 class="mt-3">Data-Driven Insights</h3>
+          <p>Analyze metrics to choose ambassadors aligned with your goals.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="bi bi-layers fs-1 text-blue-500"><img src="img2.jpg"></i>
+          <h3 class="mt-3">Seamless Integration</h3>
+          <p>Manage and communicate with ambassadors through a single platform.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section (Bootstrap Carousel) -->
+  <section id="testimonials" class="bg-dark text-white py-10">
+    <div class="container">
+      <h2 class="text-center mb-5">FeedBack</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="text-center">"Brand@us has transformed how our team collaborates. The interface and features have increased our productivity by 50%."</p>
+            <footer class="blockquote-footer text-center">PR Manager, Eco Tech</footer>
+          </div>
+          <div class="carousel-item">
+            <p class="text-center">"The best tool for brand engagement we've ever used. It's simple yet powerful, and the customer support is outstanding."</p>
+            <footer class="blockquote-footer text-center">Governor, CBN</footer>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Tailwind) -->
+  <footer id="footer" class="bg-black text-center py-6 text-gray-400">
+    <p>© 2024 Sci-Fi Tech. All Rights Reserved.</p>
+    <div class="mt-3">
+      <a href="https://www.facebook.com/" target="_blank" class="mx-2 hover:text-white">Facebook</a>
+      <a href="https://www.X.com/" target="_blank" class="mx-2 hover:text-white">Twitter</a>
+      <a href="https://www.instagram.com/" target="_blank" class="mx-2 hover:text-white">Instagram</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
